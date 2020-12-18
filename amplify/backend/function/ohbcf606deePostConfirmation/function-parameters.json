@@ -1,0 +1,17 @@
+{
+  "trigger": true,
+  "modules": [
+    "add-to-group"
+  ],
+  "parentResource": "ohbcf606dee",
+  "functionName": "ohbcf606deePostConfirmation",
+  "resourceName": "ohbcf606deePostConfirmation",
+  "parentStack": "auth",
+  "triggerEnvs": [],
+  "triggerDir": "/usr/local/lib/node_modules/@aws-amplify/cli/node_modules/amplify-category-auth/provider-utils/awscloudformation/triggers/PostConfirmation",
+  "triggerTemplate": "PostConfirmation.json.ejs",
+  "roleName": "ohbcf606deePostConfirmation",
+  "skipEdit": true,
+  "GROUP": "bene",
+  "enableCors": false
+}

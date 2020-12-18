@@ -1,0 +1,79 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateAppUser {
+  onCreateAppUser {
+    id
+    UserName
+    UserType
+    locLat
+    LocLng
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdateAppUser {
+  onUpdateAppUser {
+    id
+    UserName
+    UserType
+    locLat
+    LocLng
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeleteAppUser {
+  onDeleteAppUser {
+    id
+    UserName
+    UserType
+    locLat
+    LocLng
+    createdAt
+    updatedAt
+  }
+}
+subscription OnCreateFoodReq {
+  onCreateFoodReq {
+    id
+    NumberOfbox
+    NumberOfInfant
+    NumberOfAdults
+    BenName
+    milk
+    diaper
+    locLat
+    locLng
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdateFoodReq {
+  onUpdateFoodReq {
+    id
+    NumberOfbox
+    NumberOfInfant
+    NumberOfAdults
+    BenName
+    milk
+    diaper
+    locLat
+    locLng
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeleteFoodReq {
+  onDeleteFoodReq {
+    id
+    NumberOfbox
+    NumberOfInfant
+    NumberOfAdults
+    BenName
+    milk
+    diaper
+    locLat
+    locLng
+    createdAt
+    updatedAt
+  }
+}

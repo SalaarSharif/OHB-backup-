@@ -1,0 +1,97 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateAppUser(
+  $input: CreateAppUserInput!
+  $condition: ModelAppUserConditionInput
+) {
+  createAppUser(input: $input, condition: $condition) {
+    id
+    UserName
+    UserType
+    locLat
+    LocLng
+    createdAt
+    updatedAt
+  }
+}
+mutation UpdateAppUser(
+  $input: UpdateAppUserInput!
+  $condition: ModelAppUserConditionInput
+) {
+  updateAppUser(input: $input, condition: $condition) {
+    id
+    UserName
+    UserType
+    locLat
+    LocLng
+    createdAt
+    updatedAt
+  }
+}
+mutation DeleteAppUser(
+  $input: DeleteAppUserInput!
+  $condition: ModelAppUserConditionInput
+) {
+  deleteAppUser(input: $input, condition: $condition) {
+    id
+    UserName
+    UserType
+    locLat
+    LocLng
+    createdAt
+    updatedAt
+  }
+}
+mutation CreateFoodReq(
+  $input: CreateFoodReqInput!
+  $condition: ModelFoodReqConditionInput
+) {
+  createFoodReq(input: $input, condition: $condition) {
+    id
+    NumberOfbox
+    NumberOfInfant
+    NumberOfAdults
+    BenName
+    milk
+    diaper
+    locLat
+    locLng
+    createdAt
+    updatedAt
+  }
+}
+mutation UpdateFoodReq(
+  $input: UpdateFoodReqInput!
+  $condition: ModelFoodReqConditionInput
+) {
+  updateFoodReq(input: $input, condition: $condition) {
+    id
+    NumberOfbox
+    NumberOfInfant
+    NumberOfAdults
+    BenName
+    milk
+    diaper
+    locLat
+    locLng
+    createdAt
+    updatedAt
+  }
+}
+mutation DeleteFoodReq(
+  $input: DeleteFoodReqInput!
+  $condition: ModelFoodReqConditionInput
+) {
+  deleteFoodReq(input: $input, condition: $condition) {
+    id
+    NumberOfbox
+    NumberOfInfant
+    NumberOfAdults
+    BenName
+    milk
+    diaper
+    locLat
+    locLng
+    createdAt
+    updatedAt
+  }
+}

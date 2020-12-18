@@ -1,0 +1,18 @@
+type AppUser @model {
+  id: ID!
+  UserName: String
+  UserType: String
+  locLat: Float
+  LocLng: Float
+}
+type FoodReq @model{
+  id: ID!
+  NumberOfbox: String
+  NumberOfInfant: String
+  NumberOfAdults: String
+  BenName: String
+  milk: String
+  diaper: String
+  locLat: Float
+  locLng: Float
+}

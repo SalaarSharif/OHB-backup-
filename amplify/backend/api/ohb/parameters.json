@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "ohb",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authohbcf606dee",
+            "Outputs.UserPoolId"
+        ]
+    }
+}

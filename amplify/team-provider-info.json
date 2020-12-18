@@ -1,0 +1,25 @@
+{
+  "ohnenv": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ohb-ohnenv-161705-authRole",
+      "UnauthRoleArn": "arn:aws:iam::310699372231:role/amplify-ohb-ohnenv-161705-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::310699372231:role/amplify-ohb-ohnenv-161705-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-ohb-ohnenv-161705-deployment",
+      "UnauthRoleName": "amplify-ohb-ohnenv-161705-unauthRole",
+      "StackName": "amplify-ohb-ohnenv-161705",
+      "StackId": "arn:aws:cloudformation:us-east-1:310699372231:stack/amplify-ohb-ohnenv-161705/ad210a20-3e0e-11eb-a18a-0a4789a43cff",
+      "AmplifyAppId": "d3vmtxv4qag835"
+    },
+    "categories": {
+      "function": {
+        "ohbcf606deePostConfirmation": {
+          "GROUP": "bene"
+        }
+      },
+      "auth": {
+        "ohbcf606dee": {}
+      }
+    }
+  }
+}

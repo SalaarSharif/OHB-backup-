@@ -1,0 +1,67 @@
+# this is an auto generated file. This will be overwritten
+query GetAppUser($id: ID!) {
+  getAppUser(id: $id) {
+    id
+    UserName
+    UserType
+    locLat
+    LocLng
+    createdAt
+    updatedAt
+  }
+}
+query ListAppUsers(
+  $filter: ModelAppUserFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listAppUsers(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      UserName
+      UserType
+      locLat
+      LocLng
+      createdAt
+      updatedAt
+    }
+    nextToken
+  }
+}
+query GetFoodReq($id: ID!) {
+  getFoodReq(id: $id) {
+    id
+    NumberOfbox
+    NumberOfInfant
+    NumberOfAdults
+    BenName
+    milk
+    diaper
+    locLat
+    locLng
+    createdAt
+    updatedAt
+  }
+}
+query ListFoodReqs(
+  $filter: ModelFoodReqFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listFoodReqs(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      NumberOfbox
+      NumberOfInfant
+      NumberOfAdults
+      BenName
+      milk
+      diaper
+      locLat
+      locLng
+      createdAt
+      updatedAt
+    }
+    nextToken
+  }
+}
